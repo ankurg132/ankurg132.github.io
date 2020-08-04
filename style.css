@@ -1,7 +1,5 @@
-#dev{
-	text-align:center;
-	position:relative;
-	top:120px;
+body{
+    text-align:center;
 }
 header {
   background-color: #0e0e0e;
@@ -9,10 +7,11 @@ header {
   padding: 5px;
   position: fixed;
   width: 100%;
+  text-align:left;
+}
+article{
+    padding-top:200px;
 }
 img{
 	padding:5px;
 }
-#t2{
-	text-align:center;
-}	
