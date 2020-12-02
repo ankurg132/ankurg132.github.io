@@ -1,3 +1,3 @@
 # ankurg132.github.io
-My Code Base
-A Page where I'm sharing my works with the world!
+My Gihub Page 
+Hello world, this is the page where I share my projects and other things.
