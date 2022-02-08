@@ -7,21 +7,21 @@
         "task": [
             {
                 "id": 1,
-                "title": "TASK 1 DAY 1",
-                "description": "ftyghbjfg hjdfg    hjkdfgh jkftyghb jfg hjdfghjk dfghj kftyghbjfghjdfghjkdfghjkftyghbjfghjdfghjkdfghjkftyghbjfghjdfghjkdfghjkftyghbjfghjdfghjkdfghjkftyghbjfghjdfghjkdfghjkftyghbjfghjdfghjkdfghjkftyghbjfghjdfghjkdfghjkftyghbjfghjdfghjkdfghjkftyghbjfghjdfghjkdfghjkftyghbjfghjdfghjkdfghjkftyghbjfghjdfghjkdfghjk",
-                "url": "https://semikolan.co"
+                "title": "Talk with someone",
+                "description": "Firstly Discuss about your break-up with your brother/sister or a close friend with whom you can talk openly.",
+                "url": null
             },
             {
                 "id": 2,
-                "title": "TASK 2 DAY 1",
-                "description": "ftyghbj",
+                "title": "Stand-up may help",
+                "description": "Comedy is what you also need. Listen to the standup in the link below.",
                 "url": "https://semikolan.co"
             },
             {
                 "id": 3,
-                "title": "PHYSICIANS CARE STING RELIEF PAD",
-                "description": "ftyghbj",
-                "url": "https://semikolan.co"
+                "title": "Take a walk",
+                "description": "You can take a walk anytime and anywhere. Just go somewhere and listen to your thoughts.",
+                "url": null
             }
         ]
     },
@@ -33,21 +33,21 @@
         "task": [
             {
                 "id": 1,
-                "title": "PHYSICIANS CARE STING RELIEF PAD",
-                "description": "ftyghbj",
-                "url": "https://semikolan.co"
+                "title": "Make your bed",
+                "description": "It is highly advised to make your own bed. Works.",
+                "url": null
             },
             {
                 "id": 2,
-                "title": "PHYSICIANS CARE STING RELIEF PAD",
-                "description": "ftyghbj",
-                "url": "https://semikolan.co"
+                "title": "Go outside and play a game",
+                "description": "Play a game with anyone, be it your ex.",
+                "url": null
             },
             {
                 "id": 3,
-                "title": "PHYSICIANS CARE STING RELIEF PAD",
-                "description": "ftyghbj",
-                "url": "https://semikolan.co"
+                "title": "Watch a horror short.",
+                "description": "We have something that will amaze you, check out the link below and watch the video.",
+                "url": "https://www.youtube.com/watch?v=OqSmb3n0j8o"
             }
         ]
     },
