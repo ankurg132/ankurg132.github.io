@@ -8,7 +8,7 @@
             {
                 "id": 1,
                 "title": "Talk with someone",
-                "description": "Firstly Discuss about your break-up with your brother/sister or a close friend with whom you can talk openly.",
+                "description": "#include <bits/stdc++.h>\n\n#define db(x) cout << \"->\" \\\n                   << \" \" << #x << \"\\t\" << x << \"\\t\\n\"\nusing namespace std": null, "\nint dp[1000001]": null, "\nint count ": "0", "\nint find(string s, int i, int ans)\n{\n    if (i ": null, "\n    }\n\n    if (i ": null, "\n    }\n    int ans1 ": "0", "\n    s.push_back('0')": null, "\n    ans1 +": "find(s, i + 1, ans + 1)", "\n    s.pop_back()": null, "\n    s.push_back('1')": null, "\n    return ans1": null, "\n}\nsigned main()\n{\n\n    string s": null, "\n    // count ": "0", "\n    // v.push_back(0)": null, "\n    cout << find(s, 0, 0)": null, "\n    return 0": null, "\n}",
                 "url": null
             },
             {
