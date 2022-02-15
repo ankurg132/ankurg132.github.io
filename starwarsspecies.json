@@ -9,7 +9,8 @@
     "eye_colors": "yellow, red",
     "average_lifespan": 1000,
     "language": "Huttese",
-    "homeworld": "Nal Hutta"
+    "homeworld": "Nal Hutta",
+    "image":"https://upload.wikimedia.org/wikipedia/en/7/77/JabbaTheHutt.jpg"
   },
   {
     "name": "Yoda's species",
@@ -21,7 +22,8 @@
     "eye_colors": "brown, green, yellow",
     "average_lifespan": 900,
     "language": "Galactic basic",
-    "homeworld": "NA"
+    "homeworld": "NA",
+    "image":"https://media.wired.com/photos/595485615578bd7594c46409/master/pass/Yoda-featured1.jpg"
   },
   {
     "name": "Trandoshan",
@@ -33,7 +35,8 @@
     "eye_colors": "yellow, orange",
     "average_lifespan": "NA",
     "language": "Dosh",
-    "homeworld": "Trandosha"
+    "homeworld": "Trandosha",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPrcPY4706OmS_HRt_Ljh8vcFfD7_Zs2M9Tw&usqp=CAU",
   },
   {
     "name": "Mon Calamari",
@@ -45,7 +48,8 @@
     "eye_colors": "yellow",
     "average_lifespan": "NA",
     "language": "Mon Calamarian",
-    "homeworld": "Mon Cala"
+    "homeworld": "Mon Cala",
+    "image":"https://static.wikia.nocookie.net/starwars/images/2/23/The_Mon_Calamari.png/revision/latest?cb=20150801202537"
   },
   {
     "name": "Ewok",
@@ -57,7 +61,8 @@
     "eye_colors": "orange, brown",
     "average_lifespan": "NA",
     "language": "Ewokese",
-    "homeworld": "Endor"
+    "homeworld": "Endor",
+    "image":"https://upload.wikimedia.org/wikipedia/en/e/ee/Wicket_W_Warrick.png"
   },
   {
     "name": "Sullustan",
@@ -69,7 +74,8 @@
     "eye_colors": "black",
     "average_lifespan": "NA",
     "language": "Sullutese",
-    "homeworld": "Sullust"
+    "homeworld": "Sullust",
+    "image":"http://pm1.narvii.com/6320/0da5eeb22f81bfb46ff22418d74a7f488c135a53_00.jpg"
   },
   {
     "name": "Neimodian",
@@ -81,7 +87,8 @@
     "eye_colors": "red, pink",
     "average_lifespan": "NA",
     "language": "Neimoidia",
-    "homeworld": "Cato Neimoidia"
+    "homeworld": "Cato Neimoidia",
+    "image":"https://static.wikia.nocookie.net/starwars/images/c/cd/Neimoidian_Guard.png/revision/latest/scale-to-width-down/215?cb=20130508032345"
   },
   {
     "name": "Gungan",
@@ -93,7 +100,8 @@
     "eye_colors": "orange",
     "average_lifespan": "NA",
     "language": "Gungan basic",
-    "homeworld": "Naboo"
+    "homeworld": "Naboo",
+    "image":"https://static.wikia.nocookie.net/starwars/images/d/d5/Gungan_warrior.png/revision/latest/top-crop/width/360/height/360?cb=20160911012903"
   },
   {
     "name": "Toydarian",
@@ -105,7 +113,8 @@
     "eye_colors": "yellow",
     "average_lifespan": 91,
     "language": "Toydarian",
-    "homeworld": "Toydaria"
+    "homeworld": "Toydaria",
+    "image":"https://static.wikia.nocookie.net/starwars/images/6/6e/Wattoep2promotionalfull.jpg/revision/latest?cb=20081222024850"
   },
   {
     "name": "Dug",
@@ -117,7 +126,8 @@
     "eye_colors": "yellow, blue",
     "average_lifespan": "NA",
     "language": "Dugese",
-    "homeworld": "Malastare"
+    "homeworld": "Malastare",
+    "image":"https://i.pinimg.com/originals/b5/29/d6/b529d6889ff4ea4d1a39cd9a88fba229.jpg"
   },
   {
     "name": "Twi'lek",
@@ -129,7 +139,8 @@
     "eye_colors": "blue, brown, orange, pink",
     "average_lifespan": "NA",
     "language": "Twi'leki",
-    "homeworld": "Ryloth"
+    "homeworld": "Ryloth",
+    "image":"https://static.wikia.nocookie.net/starwars/images/c/ce/Two_kinds_of_lekku.jpg/revision/latest?cb=20160315125319"
   },
   {
     "name": "Aleena",
@@ -141,7 +152,8 @@
     "eye_colors": "NA",
     "average_lifespan": 79,
     "language": "Aleena",
-    "homeworld": "Aleen Minor"
+    "homeworld": "Aleen Minor",
+    "image":"https://static.wikia.nocookie.net/starwars/images/4/4c/KingManchuchoFull-SWE.png/revision/latest?cb=20160912042535"
   },
   {
     "name": "Vulptereen",
@@ -153,7 +165,8 @@
     "eye_colors": "yellow",
     "average_lifespan": "NA",
     "language": "vulpterish",
-    "homeworld": "Vulpter"
+    "homeworld": "Vulpter",
+    "image":"https://static.wikia.nocookie.net/starwars/images/c/cd/Dud_Bolt_FF_Scan.png/revision/latest?cb=20150414170315"
   },
   {
     "name": "Xexto",
@@ -165,7 +178,8 @@
     "eye_colors": "black",
     "average_lifespan": "NA",
     "language": "Xextese",
-    "homeworld": "Troiken"
+    "homeworld": "Troiken",
+    "image":"https://static.wikia.nocookie.net/starwars/images/3/30/Gasgano.jpg/revision/latest/top-crop/width/360/height/360?cb=20150331133737"
   },
   {
     "name": "Toong",
@@ -177,7 +191,8 @@
     "eye_colors": "orange",
     "average_lifespan": "NA",
     "language": "Tundan",
-    "homeworld": "Tund"
+    "homeworld": "Tund",
+    "image":"https://static.wikia.nocookie.net/starwars/images/1/18/BenQuadinarosFull-SWE.png/revision/latest/top-crop/width/360/height/360?cb=20160910192602"
   },
   {
     "name": "Cerean",
@@ -189,7 +204,8 @@
     "eye_colors": "hazel",
     "average_lifespan": "NA",
     "language": "Cerean",
-    "homeworld": "Cerea"
+    "homeworld": "Cerea",
+    "image":"https://static.wikia.nocookie.net/starwars/images/b/be/Mundi_bodyshot.png/revision/latest/top-crop/width/360/height/360?cb=20140603153008"
   },
   {
     "name": "Nautolan",
@@ -201,7 +217,8 @@
     "eye_colors": "black",
     "average_lifespan": 70,
     "language": "Nautila",
-    "homeworld": "Glee Anselm"
+    "homeworld": "Glee Anselm",
+    "image":"https://static.wikia.nocookie.net/starwars/images/8/81/Kitfisto_detail.png/revision/latest/top-crop/width/360/height/360?cb=20170608230157"
   },
   {
     "name": "Zabrak",
@@ -213,7 +230,8 @@
     "eye_colors": "brown, orange",
     "average_lifespan": "NA",
     "language": "Zabraki",
-    "homeworld": "Iridonia"
+    "homeworld": "Iridonia",
+    "image":"http://pm1.narvii.com/7017/060633b49016224cdcedcd7597718ae18f07c041r1-612-816v2_uhq.jpg"
   },
   {
     "name": "Tholothian",
@@ -225,7 +243,8 @@
     "eye_colors": "blue, indigo",
     "average_lifespan": "NA",
     "language": "NA",
-    "homeworld": "Tholoth"
+    "homeworld": "Tholoth",
+    "image":"https://static.wikia.nocookie.net/starwars/images/b/ba/Adigalliafull.jpg/revision/latest/top-crop/width/360/height/360?cb=20060728205717"
   },
   {
     "name": "Iktotchi",
@@ -237,7 +256,8 @@
     "eye_colors": "orange",
     "average_lifespan": "NA",
     "language": "Iktotchese",
-    "homeworld": "Iktotch"
+    "homeworld": "Iktotch",
+    "image":"https://external-preview.redd.it/Utrzs3K3OIvZ4ul_PI2HSmYByhwu2JWMSQOZCFs7I2U.jpg?auto=webp&s=f5f4dff11b50ae3425d65c9d1876c82a867c007f"
   },
   {
     "name": "Quermian",
@@ -249,7 +269,8 @@
     "eye_colors": "yellow",
     "average_lifespan": 86,
     "language": "Quermian",
-    "homeworld": "Quermia"
+    "homeworld": "Quermia",
+    "image":"https://static.wikia.nocookie.net/starwars/images/0/09/Quermian_AA.jpg/revision/latest?cb=20070301022333"
   },
   {
     "name": "Kel Dor",
@@ -261,7 +282,8 @@
     "eye_colors": "black, silver",
     "average_lifespan": 70,
     "language": "Kel Dor",
-    "homeworld": "Dorin"
+    "homeworld": "Dorin",
+    "image":"https://qph.fs.quoracdn.net/main-qimg-f592855f3d80e3a418572cf057d9ad38"
   },
   {
     "name": "Chagrian",
@@ -273,7 +295,8 @@
     "eye_colors": "blue",
     "average_lifespan": "NA",
     "language": "Chagria",
-    "homeworld": "Champala"
+    "homeworld": "Champala",
+    "image":"https://static.wikia.nocookie.net/starwars/images/c/c3/Mas_Amedda_SWE.png/revision/latest?cb=20211213015915"
   },
   {
     "name": "Geonosian",
@@ -285,7 +308,8 @@
     "eye_colors": "green, hazel",
     "average_lifespan": "NA",
     "language": "Geonosian",
-    "homeworld": "Geonosis"
+    "homeworld": "Geonosis",
+    "image":"https://static.wikia.nocookie.net/starwars/images/a/a0/Geonosian_NEGAS.png/revision/latest?cb=20170226060952"
   },
   {
     "name": "Mirialan",
@@ -297,7 +321,8 @@
     "eye_colors": "blue, green, red, yellow, brown, orange",
     "average_lifespan": "NA",
     "language": "Mirialan",
-    "homeworld": "Mirial"
+    "homeworld": "Mirial",
+    "image":"https://static.wikia.nocookie.net/bloodandhonor/images/f/fe/Mirialan.jpg/revision/latest?cb=20130106212352"
   },
   {
     "name": "Clawdite",
@@ -309,7 +334,8 @@
     "eye_colors": "yellow",
     "average_lifespan": 70,
     "language": "Clawdite",
-    "homeworld": "Zolan"
+    "homeworld": "Zolan",
+    "image":"https://static.wikia.nocookie.net/starwars/images/a/a0/Geonosian_NEGAS.png/revision/latest?cb=20170226060952"
   },
   {
     "name": "Besalisk",
@@ -321,7 +347,8 @@
     "eye_colors": "yellow",
     "average_lifespan": 75,
     "language": "besalisk",
-    "homeworld": "Ojom"
+    "homeworld": "Ojom",
+    "image":"https://static.wikia.nocookie.net/starwars/images/a/a0/Geonosian_NEGAS.png/revision/latest?cb=20170226060952"
   },
   {
     "name": "Kaminoan",
@@ -333,7 +360,8 @@
     "eye_colors": "black",
     "average_lifespan": 80,
     "language": "Kaminoan",
-    "homeworld": "Kamino"
+    "homeworld": "Kamino",
+    "image":"https://static.wikia.nocookie.net/starwars/images/a/a0/Geonosian_NEGAS.png/revision/latest?cb=20170226060952"
   },
   {
     "name": "Skakoan",
@@ -345,7 +373,8 @@
     "eye_colors": "NA",
     "average_lifespan": "NA",
     "language": "Skakoan",
-    "homeworld": "Skako"
+    "homeworld": "Skako",
+    "image":"https://static.wikia.nocookie.net/starwars/images/a/a0/Geonosian_NEGAS.png/revision/latest?cb=20170226060952"
   },
   {
     "name": "Muun",
@@ -357,7 +386,8 @@
     "eye_colors": "black",
     "average_lifespan": 100,
     "language": "Muun",
-    "homeworld": "Muunilinst"
+    "homeworld": "Muunilinst",
+    "image":"https://static.wikia.nocookie.net/starwars/images/a/a0/Geonosian_NEGAS.png/revision/latest?cb=20170226060952"
   },
   {
     "name": "Togruta",
@@ -369,7 +399,8 @@
     "eye_colors": "red, orange, yellow, green, blue, black",
     "average_lifespan": 94,
     "language": "Togruti",
-    "homeworld": "Shili"
+    "homeworld": "Shili",
+    "image":"https://static.wikia.nocookie.net/starwars/images/a/a0/Geonosian_NEGAS.png/revision/latest?cb=20170226060952"
   },
   {
     "name": "Kaleesh",
@@ -381,7 +412,8 @@
     "eye_colors": "yellow",
     "average_lifespan": 80,
     "language": "Kaleesh",
-    "homeworld": "Kalee"
+    "homeworld": "Kalee",
+    "image":"https://static.wikia.nocookie.net/starwars/images/a/a0/Geonosian_NEGAS.png/revision/latest?cb=20170226060952"
   },
   {
     "name": "Pau'an",
@@ -393,7 +425,8 @@
     "eye_colors": "black",
     "average_lifespan": 700,
     "language": "Utapese",
-    "homeworld": "Utapau"
+    "homeworld": "Utapau",
+    "image":"https://static.wikia.nocookie.net/starwars/images/a/a0/Geonosian_NEGAS.png/revision/latest?cb=20170226060952"
   },
   {
     "name": "Wookiee",
@@ -405,7 +438,8 @@
     "eye_colors": "blue, green, yellow, brown, golden, red",
     "average_lifespan": 400,
     "language": "Shyriiwook",
-    "homeworld": "Kashyyyk"
+    "homeworld": "Kashyyyk",
+    "image":"https://static.wikia.nocookie.net/starwars/images/a/a0/Geonosian_NEGAS.png/revision/latest?cb=20170226060952"
   },
   {
     "name": "Droid",
@@ -417,7 +451,8 @@
     "eye_colors": "NA",
     "average_lifespan": "indefinite",
     "language": "NA",
-    "homeworld": "NA"
+    "homeworld": "NA",
+    "image":"https://static.wikia.nocookie.net/starwars/images/a/a0/Geonosian_NEGAS.png/revision/latest?cb=20170226060952"
   },
   {
     "name": "Human",
@@ -429,7 +464,8 @@
     "eye_colors": "brown, blue, green, hazel, grey, amber",
     "average_lifespan": 120,
     "language": "Galactic Basic",
-    "homeworld": "Coruscant"
+    "homeworld": "Coruscant",
+    "image":"https://static.wikia.nocookie.net/starwars/images/a/a0/Geonosian_NEGAS.png/revision/latest?cb=20170226060952"
   },
   {
     "name": "Rodian",
@@ -441,6 +477,7 @@
     "eye_colors": "black",
     "average_lifespan": "NA",
     "language": "Galactic Basic",
-    "homeworld": "Rodia"
+    "homeworld": "Rodia",
+    "image":"https://static.wikia.nocookie.net/starwars/images/a/a0/Geonosian_NEGAS.png/revision/latest?cb=20170226060952"
   }
 ]
