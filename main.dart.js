@@ -50532,7 +50532,7 @@ A.Ps.prototype={}
 A.ze.prototype={
 P(a,b){return new A.qz(B.zB,"Ankur Gupta",A.a4G(null,B.pr),null)}}
 A.qL.prototype={
-au(){return new A.Eo(["flutter.png","gce.png","mlsa.png","gdsc.png","python.png"],B.n)}}
+au(){return new A.Eo(["assets/flutter.png","assets/gce.png","assets/mlsa.png","assets/gdsc.png","assets/python.png"],B.n)}}
 A.Eo.prototype={
 P(a,b){var s,r,q,p,o=null,n=t.w,m=A.iu(B.a7,A.a3l("intro.png",B.t2,b.Y(n).f.a.b,1/0),o,o,o,o,o,o),l=b.Y(n).f,k=t.V,j=A.iu(o,new A.iU(B.aM,A.a0d(A.b([B.FK,B.FJ,A.a10(A.b([A.MG(B.j,new A.q_(B.vp,o),new A.XH()),A.MG(B.j,A.a0n(B.vn),new A.XI()),A.MG(B.j,A.a0n(B.vm),new A.XJ()),A.MG(B.j,A.a0n(B.vo),new A.XK())],k),B.cY,B.cZ)],k),B.dC,B.cY),o),o,new A.hk(B.q,o,o,o,o,o,B.bD),o,o,o,o)
 if(b.Y(n).f.a.a>800){s=b.Y(n).f
