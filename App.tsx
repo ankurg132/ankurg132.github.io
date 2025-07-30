@@ -286,7 +286,7 @@ const Contact: FC = () => (
 const Footer: FC = () => (
   <footer className="text-center py-6 border-t border-slate-800">
       <p className="text-sm text-slate-500">Last Updated on {LAST_UPDATED}</p>
-      <p className="text-sm text-slate-600 mt-2">Designed & Built by Ankur Gupta with a little help from AI</p>
+      <p className="text-sm text-slate-600 mt-2">Designed & Built by Ankur Gupta</p>
   </footer>
 );
 
