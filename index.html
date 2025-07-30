@@ -1,58 +1,133 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankur Gupta | Software Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #020617; /* slate-950 */
+      }
+      .font-mono {
+        font-family: 'Roboto Mono', monospace;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #020617; /* slate-950 */
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #1e293b; /* slate-800 */
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #334155; /* slate-700 */
+      }
+      
+      /* --- Animated Grid Background --- */
+      #animated-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        --grid-size: 50px;
+        --grid-color: rgba(30, 41, 59, 0.5); /* slate-800 */
+        background-image:
+          linear-gradient(to right, var(--grid-color) 1px, transparent 1px),
+          linear-gradient(to bottom, var(--grid-color) 1px, transparent 1px);
+        background-size: var(--grid-size) var(--grid-size);
+        animation: bg-pan 20s linear infinite;
+      }
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+      @keyframes bg-pan {
+        from { background-position: 0 0; }
+        to { background-position: var(--grid-size) var(--grid-size); }
+      }
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+      /* --- Timeline Marker --- */
+      .timeline-marker::before {
+        content: '';
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        border: 2px solid #22d3ee; /* cyan-400 */
+        background-color: #0f172a; /* slate-900 */
+        position: absolute;
+        left: -0.5rem;
+        top: 0.25rem;
+        z-index: 10;
+        transition: transform 0.2s ease-out;
+      }
+      .timeline-marker:hover::before {
+        transform: scale(1.2);
+      }
 
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
+      /* --- Text Glitch Effect --- */
+      .glitch {
+        position: relative;
+        display: inline-block;
+      }
+      .glitch:hover:before, .glitch:hover:after {
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #020617;
+        overflow: hidden;
+      }
+      .glitch:hover:before {
+        left: 2px;
+        text-shadow: -1px 0 #ff00c1;
+        animation: glitch-anim-1 2s infinite linear alternate-reverse;
+      }
+      .glitch:hover:after {
+        left: -2px;
+        text-shadow: -1px 0 #00fff9;
+        animation: glitch-anim-2 2s infinite linear alternate-reverse;
+      }
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+      @keyframes glitch-anim-1 {
+        0% { clip-path: inset(15% 0 86% 0); }
+        20% { clip-path: inset(5% 0 45% 0); }
+        40% { clip-path: inset(23% 0 10% 0); }
+        60% { clip-path: inset(90% 0 3% 0); }
+        80% { clip-path: inset(45% 0 45% 0); }
+        100% { clip-path: inset(70% 0 10% 0); }
+      }
+      @keyframes glitch-anim-2 {
+        0% { clip-path: inset(80% 0 3% 0); }
+        20% { clip-path: inset(30% 0 65% 0); }
+        40% { clip-path: inset(5% 0 90% 0); }
+        60% { clip-path: inset(70% 0 5% 0); }
+        80% { clip-path: inset(25% 0 30% 0); }
+        100% { clip-path: inset(50% 0 40% 0); }
+      }
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="portfolio_flutter">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>portfolio_flutter</title>
-  <link rel="manifest" href="manifest.json">
-
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '396584043';
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.1",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
 </head>
-<body>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        }
-      }).then(function(engineInitializer) {
-        return engineInitializer.initializeEngine();
-      }).then(function(appRunner) {
-        return appRunner.runApp();
-      });
-    });
-  </script>
-</body>
+  <body class="bg-slate-950 text-slate-300 antialiased">
+    <div id="animated-bg"></div>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>
