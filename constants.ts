@@ -60,15 +60,6 @@ export const EXPERIENCE_DATA: Experience[] = [
       'Worked as an Android Developer Intern on the new User Interface of the application in Kotlin.',
       'Created on the MVVM Architecture and integrated the latest Android Components.'
     ]
-  },
-  {
-    company: 'Verstile',
-    role: 'Flutter Developer',
-    duration: 'June 2021 - August 2021',
-    location: 'Bhopal, IND',
-    description: [
-      'Worked as a Flutter Developer with the company clients to build the application.'
-    ]
   }
 ];
 

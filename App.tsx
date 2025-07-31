@@ -1,7 +1,3 @@
-
-
-
-
 import React, { useState, useEffect, useRef, FC, SVGProps, useCallback, useMemo } from 'react';
 import { NAME, TAGLINE, SUMMARY, SOCIAL_LINKS, NAV_LINKS, EDUCATION_DATA, EXPERIENCE_DATA, PROJECTS_DATA, SKILLS_DATA, ACHIEVEMENTS_DATA, EVENTS_DATA, LAST_UPDATED } from './constants';
 import type { SocialLink, Experience, Project, SkillCategory, Achievement, Event, NavLink, AnimatedSectionProps, Education } from './types';
@@ -146,33 +142,6 @@ const CardSpotlight: FC<{children: React.ReactNode, className?: string}> = ({ ch
           background: `radial-gradient(400px circle at var(--x) var(--y), var(--spotlight-color), transparent 80%)`
         }}
       />
-    </div>
-  );
-};
-
-const FloatingShapes: FC = () => {
-  const shapes = useMemo(() => {
-    return Array.from({ length: 15 }).map((_, i) => ({
-      id: i,
-      style: {
-        left: `${Math.random() * 100}%`,
-        top: `${Math.random() * 100}%`,
-        transform: `scale(${Math.random() * 0.4 + 0.3})`,
-        animation: `dot-pulse ${Math.random() * 10 + 8}s infinite alternate`,
-        animationDelay: `${Math.random() * 8}s`,
-      },
-    }));
-  }, []);
-
-  return (
-    <div className="absolute inset-0 -z-10 overflow-hidden">
-      {shapes.map(shape => (
-        <div
-          key={shape.id}
-          className="absolute w-12 h-12 bg-[var(--accent-color)] rounded-full"
-          style={shape.style}
-        />
-      ))}
     </div>
   );
 };
@@ -374,7 +343,6 @@ const Header: FC<{ navLinks: NavLink[], theme: 'light' | 'dark', toggleTheme: ()
 
 const Hero: FC = () => (
     <div className="relative min-h-screen flex flex-col justify-center text-center -mt-20 overflow-hidden">
-        <FloatingShapes />
         <AnimatedSection className="max-w-4xl mx-auto px-4" stagger={true}>
             <h1 className="text-5xl md:text-7xl font-extrabold text-[var(--text-primary)] tracking-tighter mb-4 glitch" data-text={NAME}>{NAME}</h1>
             <TypingEffect text={TAGLINE} className="text-2xl md:text-3xl text-[var(--accent-text-color)] font-mono font-medium mb-8" />
@@ -527,7 +495,6 @@ const AchievementsAndEvents: FC<{ achievements: Achievement[], events: Event[] }
 
 const Contact: FC = () => (
     <footer id="contact" className="py-24 text-center relative overflow-hidden">
-        <FloatingShapes />
         <AnimatedSection>
             <h2 className="text-4xl font-bold text-[var(--text-primary)] mb-4 tracking-tight section-title-underline">Get In Touch</h2>
             <p className="max-w-md mx-auto mb-8 text-[var(--text-secondary)]">I'm currently open to new opportunities and collaborations. My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
