@@ -2,7 +2,7 @@ import type { Education, Experience, Project, SkillCategory, Achievement, Event,
 import { GithubIcon, LinkedInIcon, MailIcon, TwitterIcon, BlogIcon, ResumeIcon } from './components/Icons';
 
 export const NAME = "Ankur Gupta";
-export const TAGLINE = "Flutter & Full-Stack Developer";
+export const TAGLINE = "Mobile Application Developer";
 export const SUMMARY = "I create engaging and user-friendly applications for various domains. I have more than two years of experience in developing mobile applications using Flutter, Dart, and other technologies. I am passionate about learning new technologies, solving real-world problems, and contributing to open source communities. I am a team player, a quick learner, and a creative thinker.";
 export const LAST_UPDATED = "27th April 2025";
 
@@ -75,29 +75,39 @@ export const EXPERIENCE_DATA: Experience[] = [
 export const PROJECTS_DATA: Project[] = [
   {
     title: 'CheerUp',
-    tech: 'Flutter, Dart',
+    // icon: '/cheerup-icon.png',
+    tech: 'Flutter, Dart, Firebase',
     description: [
-      'CheerUp is an online dating platform with a focus on mental health and wellbeing!',
-      'Implemented the app from scratch and developed features such as messaging, video calls, phone ringing, location based filtering, in app payments and more.'
+      'An online dating platform with a focus on mental health and wellbeing!',
+      'Implemented from scratch with features like messaging, video calls, location filtering, and in-app payments.'
     ],
-    url: 'https://github.com/ankurg132/cheerup-flutter'
+    // url: 'https://github.com/ankurg132/cheerup-flutter'
   },
   {
     title: 'Keep Document',
+    // icon: '/keep-document-icon.png',
     tech: 'Flutter, Dart, Firebase',
     description: [
-      'Securely store your data, identities and other details and get them instantly through the application whenever required.'
+      'A secure digital vault to store personal data, identities, and other details for instant access on the go.'
     ],
     url: 'https://github.com/ankurg132/keep-document'
   },
   {
-    title: 'Flow Beats',
-    tech: 'Flow Blockchain, TypeScript',
+    title: 'Snapchat Filter Clone',
+    tech: 'Flutter, Dart, MLKit',
     description: [
-      'Flow Beats is a multi-gaming platform built on Flow Blockchain! It is built on the P2E (Play-to-Earn) model and in-game rewards system.',
-      'By using Flow Beats, you can enjoy a wide variety of games all in one place. Whether you\'re into indie games, or casual puzzle games, we\'ve got something for everyone.'
+      'A real-time face filter application that detects facial landmarks to overlay digital masks and effects, built using Flutter and MLKit.'
     ],
-    url: 'https://github.com/ankurg132/flow-beats-app'
+    url: 'https://github.com/ankurg132/snapchat-filter-clone'
+  },
+  {
+    title: 'Kotlin Music Player',
+    tech: 'Kotlin, Android SDK',
+    description: [
+      'A simple music player application for Android built using Kotlin.',
+      'Plays audio files stored locally on the device, with standard playback controls.'
+    ],
+    url: 'https://github.com/ankurg132/Kotlin_Music_Player'
   }
 ];
 

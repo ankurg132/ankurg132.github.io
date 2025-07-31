@@ -27,6 +27,7 @@ export interface Project {
   tech: string;
   description: string[];
   url?: string;
+  icon?: string;
 }
 
 export interface Skill {
