@@ -66,17 +66,17 @@ export const EXPERIENCE_DATA: Experience[] = [
 export const PROJECTS_DATA: Project[] = [
   {
     title: 'CheerUp',
-    // icon: '/cheerup-icon.png',
+    // icon: 'https://i.imgur.com/8Q5tG2m.png',
     tech: 'Flutter, Dart, Firebase',
     description: [
       'An online dating platform with a focus on mental health and wellbeing!',
       'Implemented from scratch with features like messaging, video calls, location filtering, and in-app payments.'
     ],
-    // url: 'https://github.com/ankurg132/cheerup-flutter'
+    url: 'https://github.com/ankurg132/cheerup-flutter'
   },
   {
     title: 'Keep Document',
-    // icon: '/keep-document-icon.png',
+    // icon: 'https://i.imgur.com/9lF1w11.png',
     tech: 'Flutter, Dart, Firebase',
     description: [
       'A secure digital vault to store personal data, identities, and other details for instant access on the go.'

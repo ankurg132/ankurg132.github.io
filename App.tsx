@@ -275,17 +275,24 @@ const Header: FC<{ navLinks: NavLink[], theme: 'light' | 'dark', toggleTheme: ()
   // Prevent body scrolling when mobile menu is open
   useEffect(() => {
     if (isMenuOpen) {
+      const scrollY = window.scrollY;
+      document.body.style.position = 'fixed';
+      document.body.style.top = `-${scrollY}px`;
+      document.body.style.width = '100%';
       document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
+
+      return () => {
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.body.style.width = '';
+        document.body.style.overflow = 'auto';
+        window.scrollTo(0, scrollY);
+      };
     }
-    return () => {
-      document.body.style.overflow = 'auto';
-    };
   }, [isMenuOpen]);
 
   return (
-    <header className={`sticky top-0 z-50 px-4 transition-all duration-300 ${isTop ? 'py-6' : 'py-3 bg-[var(--bg-primary)]/80 backdrop-blur-lg border-b border-[var(--border-color)]'}`}>
+    <header className={`sticky top-0 z-30 px-4 transition-all duration-300 ${isTop ? 'py-6' : 'py-3 bg-[var(--bg-primary)]/80 backdrop-blur-lg border-b border-[var(--border-color)]'}`}>
         <nav className="max-w-7xl mx-auto flex justify-between items-center">
             <a href="#" className="text-2xl font-bold text-[var(--text-primary)] tracking-tighter hover:text-[var(--accent-color)] transition-colors">{NAME}</a>
             
@@ -342,8 +349,8 @@ const Header: FC<{ navLinks: NavLink[], theme: 'light' | 'dark', toggleTheme: ()
 };
 
 const Hero: FC = () => (
-    <div className="relative min-h-screen flex flex-col justify-center text-center -mt-20 overflow-hidden">
-        <AnimatedSection className="max-w-4xl mx-auto px-4" stagger={true}>
+    <section id="hero" className="relative min-h-screen flex items-center justify-center text-center px-4 overflow-hidden">
+        <AnimatedSection className="max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-7xl font-extrabold text-[var(--text-primary)] tracking-tighter mb-4 glitch" data-text={NAME}>{NAME}</h1>
             <TypingEffect text={TAGLINE} className="text-2xl md:text-3xl text-[var(--accent-text-color)] font-mono font-medium mb-8" />
             <div className="flex justify-center space-x-6">
@@ -357,7 +364,7 @@ const Hero: FC = () => (
                 })}
             </div>
         </AnimatedSection>
-    </div>
+    </section>
 );
 
 const About: FC<{ summary: string, education: Education }> = ({ summary, education }) => (
@@ -368,7 +375,7 @@ const About: FC<{ summary: string, education: Education }> = ({ summary, educati
                 <div>
                     <p className="text-lg leading-relaxed text-[var(--text-secondary)]">{summary}</p>
                 </div>
-                <div className="bg-[var(--bg-secondary)] p-6 rounded-lg border border-[var(--border-color)]">
+                <div className="bg-[var(--bg-secondary)] p-6 rounded-lg border border-[var(--border-color)] w-full">
                     <h3 className="text-xl font-bold text-[var(--text-primary)] mb-3">Education</h3>
                     <p className="font-semibold text-[var(--accent-text-color)]">{education.institution}</p>
                     <p className="text-[var(--text-primary)]">{education.degree}</p>
