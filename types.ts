@@ -2,7 +2,7 @@ import type { FC, SVGProps, ReactNode, HTMLAttributes } from 'react';
 
 export interface SocialLink {
   name: string;
-  url:string;
+  url: string;
   icon: FC<SVGProps<SVGSVGElement>>;
 }
 
@@ -28,6 +28,7 @@ export interface Project {
   description: string[];
   url?: string;
   icon?: string;
+  tags?: string[];
 }
 
 export interface Skill {
@@ -40,7 +41,7 @@ export interface SkillCategory {
 }
 
 export interface Achievement {
-  description:string;
+  description: string;
 }
 
 export interface Event {
